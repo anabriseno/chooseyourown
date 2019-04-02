@@ -1,39 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.0.0.js"></script>
-    <script src="js/scripts.js"></script>
-    <link href='https://fonts.googleapis.com/css?family=Allerta+Stencil|Quantico:400,700,400italic,700italic|Monoton' rel='stylesheet' type='text/css'>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="js/scripts.js"></script>
     <title>Dude, where am I?</title>
-    <!-- Decision 1 Start -->
-            <div id="decision-1">
-              <img class="decision-images" src="img/min.jpg" alt=""/>
-              <div class="decision-content">
-                <h1 class="page-header">An empty room</h1>
-                <p><br>You wake up in an empty room.</p><br>
-              <p>You check your pockets</p>
-                </div>
-                              <p><br><strong>Do you:</strong></p>
-                <form id="decision2b-form">
-                  <div class="radio">
-                    <p>
-                      <input type="radio" name="option1a" value="1" checked>
-                      go thru the window
-                    </p>
-                  </div>
-                  <div class="radio">
-                    <p>
-                      <input type="radio" name="option1b" value="2">
-                      go through the door
-                          </p>
-                  </div>
-                  <button type="submit" class="btn btn-begin">Next</button>
-                </form>
-              </div>
-
-
   </head>
+  <body>
+    <!--opening-->
+    <div id = "decision1">
+      <img class="decision-images" src="img/bedroom.png" alt="empty room with
+      bed and bars on windows"/>
+      <h1>An empty room</h1>
+    <p>You wake up in an room, empty save the bed you wake up on. Paint peels in sheets off the walls and ceiling. As you sit up, the bedsprings pop underneath as you swing your legs onto the dirty wooden floor. A single dirty window lets in a faint glow of sunlight filtered through rusted bars. Across from you, a door sits covered in locks. You stand up, dizziness drops you back down. You take another moment to gather yourself. You rub you're hands on your legs and notice something in your pockets. You reach in and pull your fist out. You open your hand and find. You stand up again, this time successfully.Suddenly, the door pops open an inch.</p>
+    <select class="form-control" id="option1">
+  <option value="1">Try the door</option>
+  <option value="2">Investigate the window</option>
+  <option value="3">Search the room further</option>
+</select>
+<!--choice3-->
+    <div id = "decision2c">
+      <img class="decision-images" src="img/bedroom.png" alt="empty room with
+      bed and bars on windows"/>
+      <h1>Inside</h1>
+    <p>You decide to take things slowly. Perhaps getting your bearings will reaveal what brought you here in the first place. You kneel on the floor and look under the bed. Under half and inch of dust, a bronze ring shines out of the darkness. Carefully and quietly, you move the bed to reveal a giant hatch in the floor. The hinges moan slightly as you pull the hatch open. Supporting yourself, you duck your head down. A long corridor lined with bookshelves unfolds before you ending in a set of double doors. Above the doors gleams the words "exit". You hop down clumsily onto the wooden floor with a crash. You hear a commotion from the other end of the corridor;A horrible scratching, clacking sound. Suddenly, you recognize the sound as it's owner comes into sight. It's a dog. A big dog. THe largest pitbull you've ever sets eyes on you. It slides into a bookshelf as it takes the corner, barking, jowls frothing in animosity. Quickly it recovers and barrels in your direction.    </p>
+    <select class="form-control" id="option1">
+  <option value="1">Run for the exit</option>
+  <option value="2">Confront the beast</option>
+  <option value="3">Pull down the bookcase</option>
+</select>
+</div>
+  </body>
+  </head>
+</html>

@@ -33,3 +33,5 @@ _Stephen McDaniel_
 *This software is licensed under the MIT license.*
 
 Copyright (c) 2019 **_Joshua Landry, Stephen McDaniel, & Ana Briseno_**
+
+a story about what went wrong, or right.
